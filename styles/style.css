@@ -159,22 +159,32 @@ color: rgba(14, 14, 14, 0.7);
     box-sizing: border-box;
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
-    background-image: url(/assets/quote-bg.png);
-    background-repeat: no-repeat;
-    padding: 48px 24px 48px 24px;
+    padding: 25px 24px 48px 24px;
     box-shadow: white;
   
   }
-  
+  .quote-tag div{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+  }
 .name-tag {color: rgba(14, 14, 14, 0.8);
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 24px;
+  color: rgba(14, 14, 14, 0.8);
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
 }
 .act-quote{color: rgba(14, 14, 14, 0.8);
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;}
+  line-height: 24px;
+  padding-top: 19px;
+}
+.quote-ref1{
+  color: rgba(14, 14, 14, 0.6);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
   
  .news-1{
   display: flex;
@@ -209,6 +219,93 @@ border: none;
  .door{
   margin-bottom: 32px;
  }
- .news-el1{
-  border: 1px solid black;
+ .news-el1>h4{
+margin-top: 0px;
  }
+ .news-el1{
+  display:flexbox;}
+.news-2{ 
+  margin-top: 24px;
+  display: flex;
+  background-color: white;
+  border-radius: 24px;
+  border: none;
+  align-items: center;
+  gap: 32px;
+  padding: 48px;
+flex-direction: row-reverse;
+}
+.amount{box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  width: 240px;
+  height: 128px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.donate{
+  display: flex;
+gap: 32px;
+  justify-content: space-between;
+  width: 1104px;
+  margin:  32px auto;
+  
+}
+.center{
+ text-align: center;
+ 
+}
+.impact{
+  width: 1104px;
+  margin: 0px auto;
+  color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+}
+.amount h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.sp-button{
+  background-color: #C6E4D6;
+}
+
+  .other-amount {
+    padding: 20px 40px;
+    text-align: center;
+    border: none;
+    background-color: white;
+    width: 1032px; 
+    margin: 0 auto; 
+    display: block;
+    font-size: 20px; 
+    font-weight: 400;
+line-height: 24px;
+  }
+  .btn-dn{
+    padding: 17px 34px 17px 34px;
+    background-color: #006A50;
+  border-radius: 8px;
+border: none;
+  color:white;
+  font-weight:600;
+  font-size: 18px;
+  line-height: 22px;
+text-align: center;
+}
+.press-btn{
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  
+
+}
